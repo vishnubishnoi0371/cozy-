@@ -1,0 +1,96 @@
+:root {
+    /* font size */
+    --small1: 16px;
+    --small2: 12px;
+    --medium1: 24px;
+    --medium2: 28px;
+    --large1: 50px;
+    --large2: 60px;
+    --large3: 70px;
+
+
+
+    /* color */
+    --grey1: #bfdf89;
+    --light-green: #9acc44;
+    --light-green2: #a4d156;
+    --dark-green: #5ba72b;
+
+    /* font-family */
+    --ff-1: Cherry Bomb One;
+    --ff-2: Balsamiq Sans;
+}
+
+/* font size */
+
+.small1 {
+    font-size: var(--small1);
+}
+
+.small2 {
+    font-size: var(--small2);
+}
+
+
+.medium1 {
+    font-size: var(--medium1);
+}
+
+.medium2 {
+    font-size: var(--medium2);
+}
+
+.large1 {
+    font-size: var(--large1);
+}
+
+.large2 {
+    font-size: var(--large2);
+}
+
+.large3 {
+    font-size: var(--large3);
+}
+
+
+
+/* color */
+
+.grey1 {
+    color: var(--grey1);
+}
+
+.light-green {
+    background-color: var(--light-green);
+}
+
+.light-green1 {
+    background-color: var(--light-green1);
+}
+
+.dark-green {
+    color: var(--dark-green);
+}
+
+/* font-family */
+.ff-1 {
+    font-family: var(--ff-1);
+}
+
+.ff-2 {
+    font-family: var(--ff-2);
+}
+
+@media (min-width:576px) {
+
+    :root {
+        /* font size */
+        --small1: 16px;
+        --small2: 18px;
+        --medium1: 24px;
+        --medium2: 28px;
+        --large1: 50px;
+        --large2: 60px;
+        --large3: 70px;
+    }
+}

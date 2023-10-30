@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+@import url(./root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.my_container {
+    max-width: 1140px !important;
+}
+
+.bg_clr {
+    background: var(--light-green);
+}
+
+.para-1 {
+    line-height: 150%;
+    max-width: 650px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.card-1 {
+    width: 100%;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60) !important;
+    background: rgba(255, 255, 255, 0.10);
+    transition: all 400ms linear;
+}
+
+.card-2 {
+    width: 100%;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60) !important;
+    background: rgba(255, 255, 255, 0.10);
+    transition: all 400ms linear;
+}
+
+.card-4 {
+    width: 100%;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60) !important;
+    background: rgba(255, 255, 255, 0.10);
+    transition: all 400ms linear;
+}
+
+.card-3 {
+    width: 100%;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60) !important;
+    background: rgba(255, 255, 255, 0.10);
+    transition: all 400ms linear;
+}
+
+.card-1:hover {
+    background: var(--dark-green);
+}
+
+.card-2:hover {
+    background: var(--dark-green);
+}
+
+.card-3:hover {
+    background: var(--dark-green);
+}
+
+.card-4:hover {
+    background: var(--dark-green);
+}
+
+.card-1-svg>svg path {
+    opacity: 0.3;
+}
+
+.card-2-svg>svg path {
+    opacity: 0.3;
+}
+
+.card-3-svg>svg path {
+    opacity: 0.3;
+}
+
+.card-4-svg>svg path {
+    opacity: 0.3;
+}
+
+.card-1:hover .card-1-svg>svg path {
+    opacity: 1;
+}
+
+.card-2:hover .card-2-svg>svg path {
+    opacity: 1;
+}
+
+.card-3:hover .card-3-svg>svg path {
+    opacity: 1;
+}
+
+.card-4:hover .card-4-svg>svg path {
+    opacity: 1;
+}
+
+.lh_150 {
+    line-height: 150%;
+}
+
+.mw_650 {
+    max-width: 650px;
+}
+
+.tab-card {
+    display: inline-flex;
+    padding: 75px 65px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: var(--dark-green);
+}
+
+.d_none {
+    display: none;
+}
+
+.d_block {
+    display: block;
+}
+
+
+.tree-img {
+    bottom: 4%;
+    left: 2%;
+    z-index: -1;
+}
+.shadow-1{
+    top: 5%;
+    right: 5%;
+}
+.shadow-2{
+    top: 5%;
+    left: 1%;
+}
+.tree-ftr {
+    bottom: 0;
+    left: -2%;
+    z-index: -1;
+}
+
+.closeBtn {
+    top: 2% !important;
+    right: 0% !important;
+    cursor: pointer;
+}
+
+.svg_wh {
+    width: 108px;
+    height: 106px;
+}
+
+.ml_74 {
+    margin-left: 74px;
+}
+
+@media (min-width:576px) {
+    .svg_wh {
+        width: 158px;
+        height: 176px;
+    }
+
+}
